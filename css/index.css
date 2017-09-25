@@ -375,6 +375,13 @@ header .xinxi  .two a{
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+@media (max-width: 320px) {
+	.xueshu ul li .one{
+		width:50%;
+	}
+}
+
+
 .xueshu ul li .two{
 	float: right;
 }
