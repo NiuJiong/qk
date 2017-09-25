@@ -1,0 +1,443 @@
+body,html,ul,li,ol,div,p{
+	margin: 0;
+	padding: 0;
+	font-family: pf;
+}
+body{
+	background: #F4F4F4;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearlr:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearlr{
+	zoom: 1;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+@font-face {
+	font-family:pf;
+	src: url("../font/PingFang Light.ttf");
+}
+
+
+
+
+header{
+	background: #6F71F1;
+	padding: 1rem 0.5rem;
+
+}
+header .sear{
+	font-size: 0;
+}
+header .sear .pate{
+	display: inline-block;
+	vertical-align: middle;
+}
+header .sear .pate img{
+	display: block;
+	width: 2.4rem;
+	height: 2.4rem;
+	border: 2px solid white;
+	border-radius:50%;
+}
+header .sear .right{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 1rem;
+	position: relative;
+}
+header .sear .right button{
+	position: absolute;
+	background: none;
+	border: none;
+	width: 2.192rem;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+header .sear .right button img{
+	display: block;
+	width: 0.912rem;
+	float: right;
+}
+
+header .sear .right input{
+	background: #ADABF7;
+	border: none;
+	border-radius:3px;
+	padding: 0.5rem 0;
+	font-size: 0.7rem;
+	outline: none;
+	color: white;
+	text-indent: 2.5rem;
+	width:12rem;
+}
+header .sear .right button{
+	outline: none;
+}
+header .sear .right input::-moz-placeholder{
+	color: white;
+	font-family: pf;
+}
+header .sear .right input::-ms-input-placeholder{
+	color: white;
+	font-family: pf;
+}
+header .sear .right input::-webkit-input-placeholder{
+	color: white;
+	font-family: pf;
+}
+
+
+header .xinxi{
+	margin-top: 1.5rem;
+	position: relative;
+	padding-bottom: 4rem;
+}
+header .xinxi ul li{
+	color: white;
+}
+header .xinxi ul li a{
+	color: white;
+}
+header .xinxi .one{
+	float: left;
+}
+header .xinxi  div{
+	margin: auto;
+	width: 2rem;
+}
+header .xinxi  p{
+	font-size: 0.6rem;
+}
+header .xinxi .las{
+	float: right;
+	text-align: right;
+}
+header .xinxi .las div{
+	margin: auto;
+	width: 1.5rem;
+}
+header .xinxi  .two{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-55%);
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #ececec;
+	width: 7rem;
+	height: 7rem;
+	margin: auto;
+	text-align: center;
+	background: url(../img/pic1.png) no-repeat center 97%;
+	background-size:6.8rem auto;
+}
+header .xinxi  .two .tx{
+	margin-top: 0.6rem;
+	font-size: 0.8rem;
+}
+header .xinxi  .two .num{
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-top: 0.2rem;
+}
+header .xinxi  .two a{
+	display: block;
+	font-size: 0.8rem;
+	width: 4rem;
+	margin: auto;
+	border-radius:3px;
+	border: 1px solid white;
+	margin-top: 0.1rem;
+}
+
+
+.list{
+	padding: 0 0.5rem;
+	background: white;
+}
+.list ul{
+
+}
+.list ul li{
+	float: left;
+	width: 25%;
+}
+.list ul li a{
+	display: block;
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: #919191;
+	text-align: center;
+	padding: 1rem 0 0.3rem 0;
+	position: relative;
+}
+.list ul li a div{
+	position: absolute;
+	z-index: 99999;
+	width: 1rem;
+	height: 1rem;
+	background: red;
+	border-radius:50%;
+	color: white;
+	right: 0.3rem;
+	top: 0.6rem;
+	font-size: 0.5rem;
+}
+.list ul li a img{
+	display: block;
+	width: 65%;
+	margin: auto;
+	margin-bottom: 0.2rem;
+}
+
+
+
+.message{
+	margin-top: 0.5rem;	
+}
+.message .meone{
+	
+	background: white;
+	padding: 0 1rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.1rem;
+}
+.message .meone p{
+	float: left;
+	font-size: 0.8rem;
+	color: black;
+	font-weight: bold;
+}
+.message .meone a{
+	float: right;
+	font-size: 0.5rem;
+	color: #919191;
+	font-weight: bold;
+}
+.message .meone a img{
+	width: 0.6rem;
+	margin-left: 0.1rem;
+}
+
+.message ul{
+	margin-top: 0.1rem;
+	background: white;
+	position: relative;
+}
+.message ul:before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	right: 0;
+	height: 1px;
+	background: #F4F4F4;
+	z-index: 99999;
+}
+
+.message ul li{
+	float: left;
+	width: 50%;
+}
+.message ul li a{
+	display: block;
+	color: #919191;
+	font-size: 0;
+	padding: 1rem 0;
+}
+.message ul li a .tex{
+	margin-left: 1rem;
+	width: 1.7rem;
+	font-size: 0.85rem;
+	font-weight: bold;
+}
+.message ul li a div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.message ul li a img{
+	display: block;
+	width: 2.088rem;
+	margin-left: 2rem;
+}
+.message ul .xian{
+	position: relative;
+}
+.message ul .xian:before{
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	background: #F4F4F4;
+}
+.message ul li .gx{
+	margin-left: 2.2rem;
+	width: 1.7rem;
+}
+.message ul li .ky{
+	
+	width: 2.5rem;
+}
+.messtwo{
+	margin-top: 0.3rem;
+}
+.yingyong ul li a img{
+	width: 1.4rem;
+}
+.yingyong ul .one img{
+	margin-left: 2.6rem;
+}
+.yingyong ul .two img{
+	margin-left: 2.4rem;
+}
+.yingyong ul .three .tex{
+	width: 2.8rem;
+}
+.yingyong ul .three img{
+	width: 1.8rem;
+	margin-left: 1.4rem;
+}
+.yingyong ul .four img{
+	width: 1.8rem;
+	margin-left: 2.5rem;
+}
+
+
+
+
+
+.xueshu{
+	margin-top: 0.5rem;	
+}
+.xueshu .meone{
+	
+	background: white;
+	padding: 0 1rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.1rem;
+}
+.xueshu .meone p{
+	float: left;
+	font-size: 0.8rem;
+	color: black;
+	font-weight: bold;
+}
+.xueshu .meone a{
+	float: right;
+	font-size: 0.5rem;
+	color: #919191;
+	font-weight: bold;
+}
+.xueshu .meone a img{
+	width: 0.6rem;
+	margin-left: 0.1rem;
+}
+.xueshu ul{
+	background: white;
+	margin-top: 0.1rem;
+}
+.xueshu ul li{
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	border-bottom: 1px solid #F8F8F8;
+}
+.xueshu ul li:last-child{
+	border: none;
+}
+.xueshu ul li .one{
+	float: left;
+	width:60%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.xueshu ul li .two{
+	float: right;
+}
+
+
+.friend{
+	margin-top: 0.5rem;	
+}
+.friend .meone{
+	
+	background: white;
+	padding: 0 1rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.1rem;
+}
+.friend .meone p{
+	float: left;
+	font-size: 0.8rem;
+	color: black;
+	font-weight: bold;
+}
+.friend .meone a{
+	float: right;
+	font-size: 0.5rem;
+	color: #919191;
+	font-weight: bold;
+}
+.friend .meone a img{
+	width: 0.6rem;
+	margin-left: 0.1rem;
+}
+.friend ul{
+	background: white;
+	margin-top: 0.1rem;
+	padding-bottom: 1rem;
+}
+.friend ul li{
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	border-bottom: 1px solid #F8F8F8;
+	color: #5e5e5e;
+}
+.friend ul li .left{
+	float: left;
+	width: 2.8rem;
+}
+.friend ul li .right{
+	float: left;
+	margin-left: 1rem;
+	width: 11rem;
+}
+.friend ul li .right p{
+	padding: 0.1rem 0;
+}
+.friend ul li .right .lx{
+	display: inline-block;
+	float: left;
+}
+.friend ul li .right .sc{
+	float: right;
+}
+.friend ul li .right .time{
+	text-align: right;
+	color: #919191;
+}
