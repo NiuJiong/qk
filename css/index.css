@@ -265,7 +265,7 @@ header .xinxi  .two a{
 }
 .message ul li a .tex{
 	margin-left: 1rem;
-	width: 1.7rem;
+	width: 4rem;
 	font-size: 0.85rem;
 	font-weight: bold;
 }
@@ -276,7 +276,7 @@ header .xinxi  .two a{
 .message ul li a img{
 	display: block;
 	width: 2.088rem;
-	margin-left: 2rem;
+/*	margin-left: 2rem;*/
 }
 .message ul .xian{
 	position: relative;
@@ -292,7 +292,7 @@ header .xinxi  .two a{
 	background: #F4F4F4;
 }
 .message ul li .gx{
-	margin-left: 2.2rem;
+	margin-left: 0.2rem;
 	width: 1.7rem;
 }
 .message ul li .ky{
@@ -303,24 +303,25 @@ header .xinxi  .two a{
 	margin-top: 0.3rem;
 }
 .yingyong ul li a img{
-	width: 1.4rem;
+	width: 1.5rem;
 }
 .yingyong ul .one img{
-	margin-left: 2.6rem;
+	/*margin-left: 2.6rem;*/
+	margin-left: 0.3rem;
 }
 .yingyong ul .two img{
-	margin-left: 2.4rem;
+	margin-left: 0.4rem;
 }
 .yingyong ul .three .tex{
-	width: 2.8rem;
+	width: 4rem;
 }
 .yingyong ul .three img{
 	width: 1.8rem;
-	margin-left: 1.4rem;
+	margin-left: 0.3rem;
 }
 .yingyong ul .four img{
 	width: 1.8rem;
-	margin-left: 2.5rem;
+	margin-left: 0.3rem;
 }
 
 
